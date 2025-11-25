@@ -1,0 +1,2 @@
+(function(window,$,undefined){var _block_namespaces_=window._block_namespaces_||(window._block_namespaces_={});var name="QX-101140403";var QX101140403=_block_namespaces_[name]||(_block_namespaces_[name]={});$.extend(QX101140403,{"init":init});function init(nodeObj){if(!!!nodeObj)return;var $selector=$("div[data-settingid\x3d"+nodeObj.settingId+"]");$selector.find(".family").slick({dots:true,slidesToShow:1,slidesToScroll:1,arrows:true,infinite:false,prevArrow:$selector.find(".prev"),nextArrow:$selector.find(".next")})}
+})(window,jQuery);
