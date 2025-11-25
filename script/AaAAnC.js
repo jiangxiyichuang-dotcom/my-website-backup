@@ -1,0 +1,2 @@
+(function(window,$,undefined){var _block_namespaces_=window._block_namespaces_||(window._block_namespaces_={});var name="block_25594";var blockNamespace=_block_namespaces_[name]||(_block_namespaces_[name]={});$.extend(blockNamespace,{"init":init});function init(nodeObj){if(!!!nodeObj)return;var $selector=$("div[data-settingid\x3d"+nodeObj.settingId+"]");$selector.find(".block_25594 .arrow").click(function(){if($(this).hasClass("rotate"))$(this).removeClass("rotate");else $(this).addClass("rotate");
+$selector.find(".content-box").slideToggle(200)})}})(window,jQuery);
